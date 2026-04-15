@@ -1,0 +1,849 @@
+<!doctype html>
+<html data-page="index.html" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BugZero - Game QA Testing & Localization</title>
+    <meta
+      name="description"
+      content="BugZero provides comprehensive game QA testing and localization services. We ensure your games are flawless, bug-free, and ready for a global audience."
+    />
+    <meta
+      property="og:title"
+      content="BugZero - Game QA Testing & Localization"
+    />
+    <meta
+      property="og:description"
+      content="Flawless gaming through precise testing. Get a free audit today."
+    />
+    <meta property="og:type" content="website" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI0MCIgZmlsbD0iI2RjMjYyNiIvPjwvc3ZnPg=="
+    />
+    <script defer src="assets/js/site.js"></script>
+
+    <link rel="stylesheet" href="assets/css/tailwind.css" />
+    <link rel="stylesheet" href="assets/css/chrome.css" />
+    <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml" />
+    <link
+      rel="shortcut icon"
+      href="assets/brand/favicon.svg"
+      type="image/x-icon"
+    />
+    <meta property="og:image" content="assets/img/hero_banner.webp" />
+  </head>
+  <body class="bg-noise antialiased">
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="index.html" class="brand-logo"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M5 2 h9 l5 10 l-5 10 H5 v-4 l3 -6 l-3 -6 Z M8 12 h4" />
+            <circle cx="12" cy="12" r="2" />
+            <path d="M17.5 1 L6.5 23" stroke="#ff2a2a" /></svg
+          ><span class="brand-text">BugZero</span></a
+        >
+        <nav class="desktop-nav">
+          <a href="index.html">Home</a><a href="about.html">About</a
+          ><a href="services.html">Services</a><a href="blog.html">Blog</a>
+        </nav>
+        <div class="header-actions">
+          <a href="services.html" class="btn-cta">Get a Free Audit</a
+          ><button class="menu-toggle" aria-label="Toggle Menu">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="mobile-nav-overlay">
+        <button class="menu-close" aria-label="Close Menu">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+        <nav class="mobile-nav">
+          <a href="index.html">Home</a><a href="about.html">About</a
+          ><a href="services.html">Services</a><a href="blog.html">Blog</a
+          ><a href="services.html" class="btn-cta">Get a Free Audit</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO SECTION -->
+      <section
+        id="hero"
+        class="relative-z pt-32 pb-20 md:pt-40 md:pb-28 px-4 md:px-8 border-b border-slate-800"
+      >
+        <div
+          class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12"
+        >
+          <div class="flex-1 space-y-6">
+            <h1
+              class="text-5xl md:text-7xl font-bold text-white uppercase leading-tight"
+            >
+              Flawless Gaming <br />
+              <span class="text-red-600">Precise Testing</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-300 max-w-lg">
+              BugZero provides comprehensive game QA testing and localization
+              services. We ensure your titles are bug-free and ready for a
+              global audience.
+            </p>
+            <div class="pt-4 flex flex-wrap gap-4">
+              <a
+                href="#contact"
+                class="outline-accent bg-slate-900 text-white font-bold py-3 px-8 rounded-sm uppercase tracking-wider hover:bg-red-600"
+              >
+                Get a Free Audit
+              </a>
+              <a
+                href="#services"
+                class="border-2 border-slate-700 bg-transparent text-white font-bold py-3 px-8 rounded-sm uppercase tracking-wider hover:border-slate-500 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-400"
+              >
+                Explore Services
+              </a>
+            </div>
+          </div>
+          <div class="flex-1 w-full relative">
+            <div
+              class="aspect-video w-full rounded-sm overflow-hidden outline-accent bg-slate-900"
+            >
+              <img
+                src="assets/img/hero_banner.webp"
+                alt="Game tester holding a controller in front of dual monitors"
+                class="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity duration-500"
+                loading="lazy"
+              />
+              <div
+                class="absolute inset-0 bg-red-600/10 pointer-events-none"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES SECTION -->
+      <section
+        id="services"
+        class="relative-z py-20 px-4 md:px-8 bg-slate-900/50"
+      >
+        <div class="max-w-7xl mx-auto">
+          <div class="text-center mb-16">
+            <h2
+              class="text-3xl md:text-5xl font-bold uppercase text-white mb-4"
+            >
+              Our Services
+            </h2>
+            <div class="w-24 h-1 bg-red-600 mx-auto"></div>
+          </div>
+
+          <!-- Service 1 -->
+          <div class="flex flex-col md:flex-row items-center gap-12 mb-20">
+            <div class="flex-1 w-full">
+              <div
+                class="rounded-sm overflow-hidden border border-slate-700 shadow-2xl relative"
+              >
+                <img
+                  src="assets/img/services_qa.webp"
+                  alt="Functional QA Testing"
+                  class="w-full h-64 md:h-80 object-cover"
+                  loading="lazy"
+                />
+                <div
+                  class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-slate-950 to-transparent"
+                ></div>
+              </div>
+            </div>
+            <div class="flex-1 space-y-4">
+              <h3
+                class="text-2xl md:text-3xl font-bold text-white uppercase tracking-wide"
+              >
+                Functional QA
+              </h3>
+              <p class="text-slate-300 text-lg">
+                We hunt down bugs before your players do. Our dedicated team
+                meticulously plays through every scenario, edge case, and
+                mechanic to guarantee a seamless player experience.
+              </p>
+              <ul class="space-y-3 mt-4 text-slate-400 font-medium">
+                <li class="flex items-center gap-3">
+                  <svg
+                    class="w-5 h-5 text-red-500"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg>
+                  Core Mechanics Verification
+                </li>
+                <li class="flex items-center gap-3">
+                  <svg
+                    class="w-5 h-5 text-red-500"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg>
+                  Progression Testing
+                </li>
+                <li class="flex items-center gap-3">
+                  <svg
+                    class="w-5 h-5 text-red-500"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg>
+                  Edge Case Discovery
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="flex flex-col md:flex-row-reverse items-center gap-12">
+            <div class="flex-1 w-full">
+              <div
+                class="rounded-sm overflow-hidden border border-slate-700 shadow-2xl relative"
+              >
+                <img
+                  src="assets/img/services_localization.webp"
+                  alt="Game Localization"
+                  class="w-full h-64 md:h-80 object-cover"
+                  loading="lazy"
+                />
+                <div
+                  class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-slate-950 to-transparent"
+                ></div>
+              </div>
+            </div>
+            <div class="flex-1 space-y-4">
+              <h3
+                class="text-2xl md:text-3xl font-bold text-white uppercase tracking-wide"
+              >
+                Localization
+              </h3>
+              <p class="text-slate-300 text-lg">
+                Connect with a global audience. We ensure text, audio, and
+                cultural nuances are perfectly adapted so your game resonates
+                natively with players worldwide.
+              </p>
+              <ul class="space-y-3 mt-4 text-slate-400 font-medium">
+                <li class="flex items-center gap-3">
+                  <svg
+                    class="w-5 h-5 text-red-500"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg>
+                  Contextual Translation
+                </li>
+                <li class="flex items-center gap-3">
+                  <svg
+                    class="w-5 h-5 text-red-500"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg>
+                  UI & Text Overflow Checks
+                </li>
+                <li class="flex items-center gap-3">
+                  <svg
+                    class="w-5 h-5 text-red-500"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg>
+                  Cultural Adaptation
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section
+        id="about"
+        class="relative-z py-20 px-4 md:px-8 border-y border-slate-800"
+      >
+        <div
+          class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12"
+        >
+          <div class="flex-1 space-y-6">
+            <h2 class="text-3xl md:text-5xl font-bold uppercase text-white">
+              About BugZero
+            </h2>
+            <p class="text-slate-300 text-lg">
+              We are a collective of hardcore gamers, meticulous engineers, and
+              linguistic experts united by a single goal: delivering flawless
+              gaming experiences. We integrate directly into your development
+              pipeline to provide rapid, actionable feedback.
+            </p>
+            <div class="grid grid-cols-2 gap-6 pt-4">
+              <div
+                class="bg-slate-900 p-6 rounded-sm border-l-4 border-red-600"
+              >
+                <p class="text-4xl font-bold text-white">10+</p>
+                <p
+                  class="text-sm text-slate-400 uppercase tracking-widest mt-1"
+                >
+                  Years Experience
+                </p>
+              </div>
+              <div
+                class="bg-slate-900 p-6 rounded-sm border-l-4 border-red-600"
+              >
+                <p class="text-4xl font-bold text-white">500+</p>
+                <p
+                  class="text-sm text-slate-400 uppercase tracking-widest mt-1"
+                >
+                  Projects Shipped
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="flex-1 w-full">
+            <div
+              class="outline-accent rounded-sm overflow-hidden bg-slate-900 aspect-video"
+            >
+              <img
+                src="assets/img/about_team.webp"
+                alt="BugZero QA Team working together"
+                class="w-full h-full object-cover"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- HOW WE TEST SECTION -->
+      <section id="how-we-test" class="relative-z py-20 px-4 md:px-8">
+        <div class="max-w-7xl mx-auto">
+          <div class="text-center mb-16">
+            <h2
+              class="text-3xl md:text-5xl font-bold uppercase text-white mb-4"
+            >
+              How We Test
+            </h2>
+            <p class="text-slate-400 max-w-2xl mx-auto text-lg">
+              A structured, unyielding process designed to stress-test your code
+              and design to the absolute limit.
+            </p>
+          </div>
+
+          <div class="grid md:grid-cols-3 gap-8">
+            <div
+              class="bg-slate-900 p-8 rounded-sm border border-slate-800 hover:border-red-600 transition-colors duration-300"
+            >
+              <div
+                class="w-12 h-12 bg-red-600 text-white flex items-center justify-center font-bold text-xl rounded-sm mb-6"
+              >
+                01
+              </div>
+              <h3 class="text-xl font-bold text-white uppercase mb-3">
+                Analyze Pipeline
+              </h3>
+              <p class="text-slate-400">
+                We break down your design documents and technical specs, mapping
+                out critical paths and establishing a rigorous testing protocol.
+              </p>
+            </div>
+            <div
+              class="bg-slate-900 p-8 rounded-sm border border-slate-800 hover:border-red-600 transition-colors duration-300"
+            >
+              <div
+                class="w-12 h-12 bg-red-600 text-white flex items-center justify-center font-bold text-xl rounded-sm mb-6"
+              >
+                02
+              </div>
+              <h3 class="text-xl font-bold text-white uppercase mb-3">
+                Execute Scenarios
+              </h3>
+              <p class="text-slate-400">
+                Our testers dive into the game environment, aggressively pushing
+                boundaries, colliding models, and testing overall server loads.
+              </p>
+            </div>
+            <div
+              class="bg-slate-900 p-8 rounded-sm border border-slate-800 hover:border-red-600 transition-colors duration-300"
+            >
+              <div
+                class="w-12 h-12 bg-red-600 text-white flex items-center justify-center font-bold text-xl rounded-sm mb-6"
+              >
+                03
+              </div>
+              <h3 class="text-xl font-bold text-white uppercase mb-3">
+                Log & Report
+              </h3>
+              <p class="text-slate-400">
+                Every issue is documented with absolute precision—video
+                captures, step-by-step reproduction instructions, and crash
+                dumps.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- BLOG SECTION -->
+      <section
+        id="blog"
+        class="relative-z py-20 px-4 md:px-8 bg-slate-900/50 border-t border-slate-800"
+      >
+        <div class="max-w-7xl mx-auto">
+          <div
+            class="flex flex-col md:flex-row justify-between items-end mb-12"
+          >
+            <div>
+              <h2
+                class="text-3xl md:text-5xl font-bold uppercase text-white mb-2"
+              >
+                Latest Insights
+              </h2>
+              <div class="w-16 h-1 bg-red-600"></div>
+            </div>
+            <a
+              href="blog.html"
+              class="text-red-500 font-bold uppercase tracking-wider hover:text-white transition-colors mt-6 md:mt-0 flex items-center gap-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-500 rounded-sm"
+            >
+              Read All Articles
+              <svg
+                class="w-5 h-5"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+
+          <div class="grid md:grid-cols-2 gap-8">
+            <a
+              href="blog.html"
+              class="group block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-500 rounded-sm"
+            >
+              <div
+                class="rounded-sm overflow-hidden bg-slate-900 border border-slate-800 group-hover:border-red-600 transition-colors"
+              >
+                <img
+                  src="assets/img/blog_post_1.webp"
+                  alt="Automated Testing vs Manual QA"
+                  class="w-full h-48 md:h-64 object-cover opacity-80 group-hover:opacity-100 transition-opacity"
+                  loading="lazy"
+                />
+                <div class="p-6 md:p-8">
+                  <span
+                    class="text-xs text-red-500 font-bold uppercase tracking-widest mb-3 block"
+                    >Methodology</span
+                  >
+                  <h3
+                    class="text-xl md:text-2xl font-bold text-white mb-3 group-hover:text-red-500 transition-colors"
+                  >
+                    Why Automated Testing Alone Isn't Enough for Modern Games
+                  </h3>
+                  <p class="text-slate-400">
+                    A deep dive into the balance between automated scripts and
+                    human intuition when hunting game-breaking bugs.
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a
+              href="blog.html"
+              class="group block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-500 rounded-sm"
+            >
+              <div
+                class="rounded-sm overflow-hidden bg-slate-900 border border-slate-800 group-hover:border-red-600 transition-colors"
+              >
+                <img
+                  src="assets/img/blog_post_2.webp"
+                  alt="Localization in RPGs"
+                  class="w-full h-48 md:h-64 object-cover opacity-80 group-hover:opacity-100 transition-opacity"
+                  loading="lazy"
+                />
+                <div class="p-6 md:p-8">
+                  <span
+                    class="text-xs text-red-500 font-bold uppercase tracking-widest mb-3 block"
+                    >Industry News</span
+                  >
+                  <h3
+                    class="text-xl md:text-2xl font-bold text-white mb-3 group-hover:text-red-500 transition-colors"
+                  >
+                    The Evolution of Localization in Next-Gen RPGs
+                  </h3>
+                  <p class="text-slate-400">
+                    Exploring how dynamic dialogue systems require specialized
+                    localization QA pipelines.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ SECTION -->
+      <section id="faq" class="relative-z py-20 px-4 md:px-8">
+        <div class="max-w-4xl mx-auto">
+          <div class="text-center mb-12">
+            <h2
+              class="text-3xl md:text-5xl font-bold uppercase text-white mb-4"
+            >
+              Frequently Asked Questions
+            </h2>
+            <p class="text-slate-400 text-lg">
+              Clear answers regarding our QA process and capabilities.
+            </p>
+          </div>
+
+          <div class="space-y-4">
+            <div class="bg-slate-900 border border-slate-800 p-6 rounded-sm">
+              <h3 class="text-lg font-bold text-white uppercase mb-3">
+                How long does a standard QA cycle take?
+              </h3>
+              <p class="text-slate-400">
+                Timelines vary heavily based on the scope and complexity of your
+                title. A standard initial sweep for an indie title might take
+                two weeks, whereas comprehensive QA for a massive open-world RPG
+                occurs continuously alongside development.
+              </p>
+            </div>
+            <div class="bg-slate-900 border border-slate-800 p-6 rounded-sm">
+              <h3 class="text-lg font-bold text-white uppercase mb-3">
+                Do you test on all major consoles?
+              </h3>
+              <p class="text-slate-400">
+                Yes. Our test labs are fully equipped with the latest hardware
+                configurations, from modern consoles and VR headsets to a wide
+                spectrum of PC components and mobile devices.
+              </p>
+            </div>
+            <div class="bg-slate-900 border border-slate-800 p-6 rounded-sm">
+              <h3 class="text-lg font-bold text-white uppercase mb-3">
+                How does the localization process work?
+              </h3>
+              <p class="text-slate-400">
+                We combine native linguistic experts with experienced gamers.
+                They verify translations in-context to ensure UI elements don't
+                overflow, terminology matches the genre, and cultural references
+                land appropriately.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section
+        id="contact"
+        class="relative-z py-20 px-4 md:px-8 bg-slate-950 border-t border-slate-800"
+      >
+        <div class="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12">
+          <div class="flex-1 space-y-8">
+            <div>
+              <h2
+                class="text-3xl md:text-5xl font-bold uppercase text-white mb-4"
+              >
+                Request an Audit
+              </h2>
+              <p class="text-slate-400 text-lg">
+                Reach out today to discuss your testing needs, timelines, and
+                technical requirements.
+              </p>
+            </div>
+
+            <div class="space-y-6">
+              <div class="flex items-start gap-4">
+                <div
+                  class="w-10 h-10 bg-slate-900 border border-slate-800 flex items-center justify-center rounded-sm text-red-500 shrink-0"
+                >
+                  <svg
+                    class="w-5 h-5"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                </div>
+                <div>
+                  <h4
+                    class="text-white font-bold uppercase text-sm tracking-wider mb-1"
+                  >
+                    Headquarters
+                  </h4>
+                  <a
+                    href="https://maps.app.goo.gl/MkRxRhDAixCJ9G9g9"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-slate-400 hover:text-red-500 transition-colors block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-500 rounded-sm"
+                  >
+                    1201 Third Avenue, Seattle, WA 98101, USA
+                  </a>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-4">
+                <div
+                  class="w-10 h-10 bg-slate-900 border border-slate-800 flex items-center justify-center rounded-sm text-red-500 shrink-0"
+                >
+                  <svg
+                    class="w-5 h-5"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h4
+                    class="text-white font-bold uppercase text-sm tracking-wider mb-1"
+                  >
+                    Phone
+                  </h4>
+                  <a
+                    href="tel:+12065550147"
+                    class="text-slate-400 hover:text-red-500 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-500 rounded-sm"
+                    >+1 206 555 0147</a
+                  >
+                </div>
+              </div>
+
+              <div class="flex items-start gap-4">
+                <div
+                  class="w-10 h-10 bg-slate-900 border border-slate-800 flex items-center justify-center rounded-sm text-red-500 shrink-0"
+                >
+                  <svg
+                    class="w-5 h-5"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                    />
+                    <polyline points="22,6 12,13 2,6" />
+                  </svg>
+                </div>
+                <div>
+                  <h4
+                    class="text-white font-bold uppercase text-sm tracking-wider mb-1"
+                  >
+                    Email
+                  </h4>
+                  <a
+                    href="mailto:info@bugzeroqa.com"
+                    class="text-slate-400 hover:text-red-500 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-500 rounded-sm"
+                    >info@bugzeroqa.com</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="flex-1 w-full max-w-xl lg:max-w-none bg-slate-900 p-6 md:p-8 rounded-sm outline-accent"
+          >
+            <form class="space-y-6" action="thanks_form.php" method="POST">
+              <div>
+                <label
+                  for="name"
+                  class="block text-sm font-bold text-white uppercase tracking-wider mb-2"
+                  >Name</label
+                >
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  class="w-full bg-slate-950 border border-slate-800 rounded-sm px-4 py-3 text-white focus:outline-none focus:border-red-500 focus:ring-1 focus:ring-red-500 transition-colors"
+                />
+              </div>
+              <div>
+                <label
+                  for="email"
+                  class="block text-sm font-bold text-white uppercase tracking-wider mb-2"
+                  >Email Address</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  class="w-full bg-slate-950 border border-slate-800 rounded-sm px-4 py-3 text-white focus:outline-none focus:border-red-500 focus:ring-1 focus:ring-red-500 transition-colors"
+                />
+              </div>
+              <div>
+                <label
+                  for="message"
+                  class="block text-sm font-bold text-white uppercase tracking-wider mb-2"
+                  >Project Details</label
+                >
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  required
+                  class="w-full bg-slate-950 border border-slate-800 rounded-sm px-4 py-3 text-white focus:outline-none focus:border-red-500 focus:ring-1 focus:ring-red-500 transition-colors"
+                ></textarea>
+              </div>
+
+              <div class="form-privacy">
+                <label class="privacy-label">
+                  <input type="checkbox" name="privacyAccepted" required />
+                  <span
+                    >I agree to the
+                    <a href="privacy-policy.html" target="_blank" rel="noopener"
+                      >Privacy Policy</a
+                    >.</span
+                  >
+                </label>
+              </div>
+              <button
+                type="submit"
+                class="w-full bg-red-600 text-white font-bold py-4 px-8 rounded-sm uppercase tracking-wider hover:bg-red-700 transition-colors focus:ring-2 focus:ring-red-400 focus:outline-none"
+              >
+                Submit Request
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="footer-logo"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M5 2 h9 l5 10 l-5 10 H5 v-4 l3 -6 l-3 -6 Z M8 12 h4" />
+              <circle cx="12" cy="12" r="2" />
+              <path d="M17.5 1 L6.5 23" stroke="#ff2a2a" /></svg
+            ><span class="brand-text">BugZero</span></a
+          >
+          <p class="tagline">Flawless gaming through precise testing.</p>
+        </div>
+        <div class="footer-contact">
+          <h3 class="footer-heading">Contact</h3>
+          <address class="contact-links">
+            <a
+              href="https://maps.app.goo.gl/MkRxRhDAixCJ9G9g9"
+              target="_blank"
+              rel="noopener"
+              ><svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle></svg
+              ><span>1201 Third Avenue, Seattle, WA 98101, USA </span></a
+            ><a href="mailto:info@bugzeroqa.com"
+              ><svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                ></path>
+                <polyline points="22,6 12,13 2,6"></polyline></svg
+              ><span>info@bugzeroqa.com</span></a
+            ><a href="tel:+12065550147"
+              ><svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                ></path></svg
+              ><span>+1 206 555 0147</span></a
+            >
+          </address>
+        </div>
+        <div class="footer-legal">
+          <h3 class="footer-heading">Legal</h3>
+          <div class="legal-links">
+            <a href="terms-conditions.html">Terms</a
+            ><a href="privacy-policy.html">Privacy</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 BugZero. All rights reserved.</p>
+      </div>
+    </footer>
+    <script defer src="assets/js/chrome.js"></script>
+  </body>
+</html>
